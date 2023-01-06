@@ -195,8 +195,10 @@ body {
   border-radius: 4px;
 }
 
-.services-1:hover {
+.services-1:hover,
+.services-1:focus {
   border: 4px solid #2196f3;
+  cursor: pointer;
 }
 
 .text {
@@ -327,10 +329,13 @@ body {
   align-items: center;
   margin: 0;
   color: #afb1b8;
+  border-radius: 15%;
 }
 
-.media-item:hover {
+.media-item:hover,
+.media-item:focus {
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 /* third section */
@@ -362,8 +367,10 @@ body {
   border: 1px solid #afb1b8;
 }
 
-.partners:hover {
+.partners:hover,
+.partners:focus {
   border: 4px solid #2196f3;
+  cursor: pointer;
 }
 
 .icons-position1 {
@@ -451,8 +458,10 @@ body {
   color: #ffffff;
 }
 
-.icons-footer:hover {
+.icons-footer:hover,
+.icons-footer:focus {
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 /* portfolio page */
@@ -520,4 +529,5 @@ body {
 
 .item:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
