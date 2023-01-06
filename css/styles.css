@@ -328,13 +328,13 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  color: #afb1b8;
+  fill: #afb1b8;
   border-radius: 15%;
 }
 
 .media-item:hover,
 .media-item:focus {
-  background-color: #2196f3;
+  fill: #2196f3;
   cursor: pointer;
 }
 
