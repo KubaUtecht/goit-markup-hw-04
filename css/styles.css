@@ -18,8 +18,13 @@ body {
 
 .icons-position {
   margin: 25px 102.34px;
+  fill: #757575;
 }
 
+.icons-position:hover {
+  stroke: #2196f3;
+  cursor: pointer;
+}
 /*classes for header*/
 
 .logo {
@@ -92,6 +97,13 @@ body {
   display: flex;
   justify-content: center;
   margin-left: 350px;
+  fill: #757575;
+}
+
+.mail:hover,
+.mail:focus {
+  stroke: #2196f3;
+  cursor: pointer;
 }
 
 .phone {
@@ -101,6 +113,13 @@ body {
   justify-content: center;
   align-items: center;
   margin-right: 215px;
+  fill: #757575;
+}
+
+.phone:hover,
+.phone:focus {
+  stroke: #2196f3;
+  cursor: pointer;
 }
 
 .icons-contact {
@@ -323,18 +342,31 @@ body {
   padding-top: 6px;
 }
 
+.icons-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+
+.icons-style:hover,
+.icons-style:focus {
+  background-color: #2196f3;
+}
+
 .media-item {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-  fill: #afb1b8;
-  border-radius: 15%;
+  fill: #757575;
 }
 
 .media-item:hover,
 .media-item:focus {
-  fill: #2196f3;
+  --color3: white;
   cursor: pointer;
 }
 
@@ -364,7 +396,7 @@ body {
   margin: 0;
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid #757575;
 }
 
 .partners:hover,
@@ -375,11 +407,13 @@ body {
 
 .icons-position1 {
   margin: 16px 32px;
-  fill: #afb1b8;
+  fill: #757575;
 }
 
-.icons-position1:hover {
-  fill: #2196f3;
+.icons-position1:hover,
+.icons-position1:focus {
+  stroke: #2196f3;
+  cursor: pointer;
 }
 
 /*footer section*/
@@ -455,13 +489,27 @@ body {
 }
 
 .icons-footer {
-  color: #ffffff;
+  fill: #757575;
 }
 
 .icons-footer:hover,
 .icons-footer:focus {
-  background-color: #2196f3;
+  --color3: #ffffff;
   cursor: pointer;
+}
+.background-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: #50515d;
+}
+
+.background-size:hover,
+.background-size:focus {
+  background-color: #2196f3;
 }
 
 /* portfolio page */
