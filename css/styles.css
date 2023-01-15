@@ -253,6 +253,33 @@ body {
   justify-content: space-between;
 }
 
+.our-biznes {
+  position: relative;
+}
+
+.item-biznes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.text-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 27px;
+}
+
 /* second section*/
 
 .secondary-head-2 {
@@ -573,4 +600,42 @@ body {
 .item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+}
+
+.box-hidden {
+  position: relative;
+  width: 370px;
+  height: 294px;
+  overflow: hidden;
+}
+
+.hidden {
+  position: absolute;
+  transform: translateY(100%);
+  width: auto;
+  height: auto;
+  background-color: rgba(33, 150, 243, 0.9);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform;
+}
+
+.item:hover .hidden {
+  transform: translateY(0);
+}
+
+.hidden-text {
+  margin: 0;
+  padding: 49px 45px 49px 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.link-figure {
+  text-decoration: none;
+  color: #212121;
 }
